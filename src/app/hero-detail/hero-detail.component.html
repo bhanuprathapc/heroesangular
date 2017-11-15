@@ -1,0 +1,12 @@
+<div *ngIf="hero">
+    <h2>{{ hero.name | uppercase }} Details</h2>
+     <div>
+      <label>Heros Name:
+        <input [(ngModel)]="hero.name" placeholder="name">
+      </label>
+      <br>
+      <img src="{{hero.imgUrl}}"/>
+    </div>
+    </div>
+
+    
